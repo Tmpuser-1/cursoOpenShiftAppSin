@@ -31,7 +31,7 @@ public class Aplicacion extends HttpServlet {
 
     @Override
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Salida POST");
+        System.out.println("Salida POST nueva");
         response.getWriter().println("Salida POST");
         response.getWriter().flush();
 
