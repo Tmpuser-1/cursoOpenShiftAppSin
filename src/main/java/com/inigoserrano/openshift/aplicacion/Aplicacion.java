@@ -24,8 +24,8 @@ public class Aplicacion extends HttpServlet {
 
 	@Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Salida GET modificada con webhook Nuevo");
-        response.getWriter().println("Salida GET version master webhook Nuevooooo");  
+        System.out.println("Salida GET modificada con webhook");
+        response.getWriter().println("Salida GET version master webhook Nuevooooo (version 3#2).");  
         response.getWriter().flush();
     }
 
